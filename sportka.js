@@ -9,6 +9,7 @@
 
 let osudi = [];
 
+// generovani osudi
 for (let i = 1; i <= 49; i = i + 1) {
   osudi.push(i);
 }
