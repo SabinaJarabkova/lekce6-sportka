@@ -9,7 +9,7 @@
 
 let osudi = [];
 
-for (let i = 1; i <= 48; i = i + 1) {
+for (let i = 1; i <= 49; i = i + 1) {
   osudi.push(i);
 }
 
@@ -26,4 +26,11 @@ for (let i = 0; i < 7; i++) {
   console.log(tazenaCisla);
   console.log(osudi);
 
+}
+
+//vypis do html
+let vyherniCisla = document.querySelector('#vyherni-cisla');
+
+for (let j = 0; j < tazenaCisla.length; j++) {
+  vyherniCisla.innerHTML += '<span class="cislo">' + tazenaCisla[j] + '</span>';
 }
